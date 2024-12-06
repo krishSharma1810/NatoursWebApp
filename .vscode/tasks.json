@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch:js",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: watch:js",
+			"detail": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+		},
+		{
+			"type": "npm",
+			"script": "build:js",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build:js",
+			"detail": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+		}
+	]
+}
